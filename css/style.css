@@ -71,10 +71,12 @@ hr{
 }
 .blog-title{
     font-size: 20px;
+    font-weight: 500;
 }
 .blog-author{
-    font-size: 16px;
     color: #9F9F9F;
+    font-size: 16px;
+    font-weight: 400;
 }
 .blog-author a{
     color: #562EFF;
@@ -90,7 +92,6 @@ hr{
     grid-column-gap: 24px;
 }
 .course-one{
-    
     box-shadow: 1px 1px 5px black;
     border-radius: 10px;
     padding: 15px;
@@ -108,14 +109,14 @@ hr{
 .course-author{
     font-size: 15px;
     color: #ED6B4F;
-    margin-bottom: 1px;
+    margin-bottom: 5px;
 }
 .course-info{
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.course-info p{
+.course-info span{
     font-size: 15px;
 }
 .fill{
@@ -127,8 +128,8 @@ hr{
     font-size: 12px;
 }
 .time{
-    color: #9F9F9F;
-    background-color: #E5E5E5;
+    color: #9f9f9ff1;
+    background-color: #e5e5e5fd;
     padding: 2px 5px;
     border-radius: 20px;
     font-size: 15px;
